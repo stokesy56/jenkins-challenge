@@ -26,4 +26,3 @@ sudo ufw enable
 sudo ufw allow 8080
 
 sudo npm i -g ngrok --unsafe-perm=true --allow-root
-ngrok http 8080
