@@ -1,6 +1,5 @@
 #!/bin/bash
-sudo apt-get update && sudo apt-get -y upgrade
-
+sudo apt-get update -y
 # Installing nginx
 sudo apt-get install nginx -y
 sudo systemctl start nginx
@@ -25,6 +24,6 @@ systemctl status jenkins
 sudo ufw allow OpenSSH
 sudo ufw enable
 sudo ufw allow 8080
-sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 sudo npm i -g ngrok --unsafe-perm=true --allow-root
+ngrok http 8080
