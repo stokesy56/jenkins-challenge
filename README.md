@@ -7,4 +7,4 @@ Jenkins Homework :sushi::cheese::bacon::lollipop:
 6) now make a build and configure it with your github credentials
 7) on your virtual machine type 'ngrok http 8080'
 8) copy the url and go to github and create a webhook with the url and /github-webhok/ added to the end of curl
-9) should work... :fried_shrimp:
+9) should work... :fried_shrimp::earth:

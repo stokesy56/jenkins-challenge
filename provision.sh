@@ -5,7 +5,7 @@ sudo apt-get install nginx -y
 sudo systemctl start nginx
 
 # installing java
-sudo apt update
+sudo apt update -y
 sudo apt install openjdk-8-jdk -y
 
 # installing nodejs
